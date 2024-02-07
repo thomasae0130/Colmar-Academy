@@ -15,7 +15,7 @@ header {
     align-items: center;
 }
 .headerlogo img {
-    margin-left: 10px; 
+    margin-left: 24px; 
 }
 a {
     text-decoration: none; 
@@ -28,7 +28,8 @@ strong {
 ul {
     list-style: none;
     display: flex;
-    margin-right: 16px;
+    margin-right: 24px;
+    color: #484B4A;
 }
 li {
     margin-right: 16px;   
@@ -36,3 +37,49 @@ li {
 h4 {
     font-weight: 400;
 }
+.banner {
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    width: 100%    
+}
+.banner-img {
+    width: 60%;
+    margin: 32px 24px;
+}    
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    text-align: left;
+    margin-left: 24px;
+    
+}
+.banner-text h1 {
+    margin: 0;
+    font-family:sans-serif;
+}
+.banner-text h3 {
+    margin: 0;
+    margin-top: 40px;
+    font-family:sans-serif;
+}
+.banner-text h4{
+    margin-top: 40px;
+    height: 60px;
+    font-size: 30px;
+    width: 75%;
+    color: white;
+    background-color: #484B4A;
+    font-family:sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text span{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+    
