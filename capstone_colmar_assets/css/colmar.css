@@ -94,7 +94,9 @@ h4 {
     margin: 32px 24px;
 }
 .information-main-img1-text {
-    width: 55%; 
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .information-main-img1-text h2 {
     color:#484B4A;
@@ -106,6 +108,7 @@ h4 {
     font-size: 20px;
     margin:32px 24px;
     color:#484B4A;
+    font-family: sans-serif;
 }
 #latin { 
     margin-left: 24px;
@@ -134,7 +137,7 @@ h4 {
     text-align: left;
     flex: 1;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:#484B4A;
 }
 .orientation-text h2 {
@@ -172,7 +175,7 @@ h4 {
     flex: 1;
     font-family: sans-serif;
     color:#484B4A;
-    font-size: 30px;
+    font-size: 25px;
 }
 .our-campus-text h2 {
     margin: 0;
@@ -209,7 +212,7 @@ h4 {
     flex: 1;
     font-family: sans-serif;
     color:#484B4A;
-    font-size: 30px;
+    font-size: 25px;
 }
 .lecture-text h2 {
     margin: 0;
