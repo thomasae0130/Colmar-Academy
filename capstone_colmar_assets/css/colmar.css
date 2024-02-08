@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     font-size: 32px;
@@ -54,7 +55,7 @@ h4 {
     width: 30%;
     text-align: left;
     margin-left: 24px;
-    
+    color:#484B4A;   
 }
 .banner-text h1 {
     margin: 0;
@@ -65,7 +66,7 @@ h4 {
     margin-top: 40px;
     font-family:sans-serif;
 }
-.banner-text h4{
+.banner-text h4 {
     margin-top: 40px;
     height: 60px;
     font-size: 30px;
@@ -78,8 +79,115 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-.banner-text span{
+.information-main {
+    width: 100%  
+}   
+.information-main-img1 { 
+    width: 60%;
+    margin: 32px 24px;
+}
+.information-main-img1-text {
+    width: 55%;
+    
+}
+.information-main-img1-text h2 {
+    color:#484B4A;
+    font-family: sans-serif;
+    margin-left: 24px;
+    font-weight: 700;
+
+}
+#signing {
+    font-size: 20px;
+    margin:32px 24px;
+    color:#484B4A;
+}
+#latin {
+    margin-left: 24px;
+    font-weight:300;
+    font-family: sans-serif;
+    font-size: 30px;
+    color:#484B4A;
+}
+.orientation {
+    display: flex;
+    width: 40%;
+    background-color:bisque;
+    
+}
+.orientation img {
+    width: 35%;
+    margin: 16px 16px;
+}
+.orientation-text {
+    text-align: left;
+    color:#484B4A;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.orientation h2, .orientation p, .orientation h4 {
+    margin:0;
+}
+.orientation h2 {
+    margin-top: 16px;
+}
+.orientation p, .orientation h4 {
+    margin-top: 8px;
+}
+.orientation a {
+    color: rgb(19, 54, 209);
+}
+.our-campus {
+ background-color: blanchedalmond;
+ width: 40%;
+ display: flex;
+}
+.our-campus img {
+    margin: 16px 16px;
+    width: 35%;
+}
+.our-campus-text{
+    text-align: left;
+    color:#484B4A;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-size: 30px;
+}    
+.our-campus-text h2, .our-campus-text p, .our-campus-text h4  {
+    margin: 0;
+}
+.our-campus-text p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.our-campus-text a {
+    color:rgb(19, 54, 209); 
+}
+.guest-lecture {
+    background-color: burlywood;
+    width: 40%;
+    display: flex;
+}
+.guest-lecture img {
+    margin: 16px 16px;
+}
+.guest-lecture-text {
+    font-family: sans-serif;
+    font-size: 30px;
+    color:#484B4A;
+    margin-top: 60px;
+}
+.guest-lecture h2, .guest-lecture p, .guest-lecture h4 {
+    margin: 0;
+}
+.guest-lecture p {
     margin-top: 8px;
     margin-bottom: 8px;
 }
-    
+.guest-lecture a {
+    color:rgb(19, 54, 209);    
+}
