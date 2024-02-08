@@ -82,7 +82,7 @@ h4 {
 .information-main {
     display: flex;
     width: 100%;
-   margin-right: 20px;  
+    margin-right: 20px;  
 } 
 .information-container {
     display: flex;
@@ -94,15 +94,13 @@ h4 {
     margin: 32px 24px;
 }
 .information-main-img1-text {
-    width: 55%;
-    
+    width: 55%; 
 }
 .information-main-img1-text h2 {
     color:#484B4A;
     font-family: sans-serif;
     margin-left: 24px;
     font-weight: 700;
-
 }
 #signing {
     font-size: 20px;
@@ -140,8 +138,7 @@ h4 {
     color:#484B4A;
 }
 .orientation-text h2 {
-    margin: 0;
-    
+    margin: 0;   
 }
 .orientation-text p {
     margin: 0;
@@ -150,11 +147,9 @@ h4 {
 .orientation-text h4 {
     margin: 0;
     margin-top: 8px;
-
 }
 .orientation-text a {
-    color: #1E81E4;
-    
+    color: #1E81E4;  
 }
 .our-campus {
     display: flex;
@@ -181,7 +176,6 @@ h4 {
 }
 .our-campus-text h2 {
     margin: 0;
-
 }
 .our-campus-text p {
     margin: 0;
@@ -193,23 +187,21 @@ h4 {
 }
 .our-campus-text a {
     color:#1E81E4;
-
 }
 .lecture {
     display: flex;
-    background-color: lightgrey;
+    background-color: #EAEAEA;
     width: 100%;
     align-items: center;
-    border-top: 2px solid lightgray;
-    border-bottom: 2px solid lightgrey;
-    border-left: 2px solid lightgray;
+    border-top: 2px solid #EAEAEA;
+    border-bottom: 2px solid #EAEAEA;
+    border-left: 2px solid #EAEAEA;
     border-right: 0px;
     margin-top: 2px;
 }
 .lecture img {
     width: 35%;
     height: auto;
-   
     margin: 16px 16px;
 }
 .lecture-text {
@@ -232,4 +224,84 @@ h4 {
 }
 .lecture-text a {
     color:#1E81E4;
+}
+.learning {
+    width: 100%;
+    background-color: #EAEAEA;
+}
+.learning h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    padding-top: 32px;
+    font-family: sans-serif;
+    color:#484B4A;
+}
+.courses {
+    display: flex;
+    margin: 0px 72px;
+}
+.software-engineering {
+    background-color: white;
+    width: 33%;
+    margin-right: 32px;
+    text-align: left;
+    justify-content: center;   
+}
+.software-engineering img {
+    width: 100%;
+}
+.software-engineering-text {
+    font-family: sans-serif;
+    margin-left: 16px;
+}
+.software-engineering-text h2 {
+    color:#484B4A;
+    margin-bottom: 30px;
+}
+.software-engineering-text p {
+    color:#727272;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.computer-art {
+    background-color: white;
+    width: 33%;
+    margin-right: 32px;
+}
+.computer-art img {
+    width: 100%
+}
+.computer-art-text {
+    font-family: sans-serif;
+    margin-left: 16px;
+}
+.computer-art h2 {
+    color:#484B4A;
+    margin-bottom: 30px;
+}
+.computer-art p {
+    color:#727272;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.design {
+    background-color: white;
+    width: 33%;
+}
+.design img {
+    width: 100%;
+}
+.design-text {
+    font-family: sans-serif;
+    margin-left: 16px;
+}
+.design-text h2 {
+    color:#484B4A;
+    margin-bottom: 30px;
+}
+.design-text p {
+    color:#727272;
+    margin-top: 30px;
+    margin-bottom: 24px;
 }
