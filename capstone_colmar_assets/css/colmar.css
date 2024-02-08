@@ -80,8 +80,15 @@ h4 {
     align-items: center;
 }
 .information-main {
-    width: 100%  
-}   
+    display: flex;
+    width: 100%;
+   margin-right: 20px;  
+} 
+.information-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}  
 .information-main-img1 { 
     width: 60%;
     margin: 32px 24px;
@@ -102,7 +109,7 @@ h4 {
     margin:32px 24px;
     color:#484B4A;
 }
-#latin {
+#latin { 
     margin-left: 24px;
     font-weight:300;
     font-family: sans-serif;
@@ -111,83 +118,118 @@ h4 {
 }
 .orientation {
     display: flex;
-    width: 40%;
-    background-color:bisque;
-    
+    background-color: white;
+    width: 100%;
+    margin-top: 32px;
+    align-items: center;
+    border-top: 0px;
+    border-bottom: 2px solid lightgrey;
+    border-left: 2px solid lightgray;
+    border-right: 0px;
 }
 .orientation img {
     width: 35%;
+    height: auto;
     margin: 16px 16px;
 }
 .orientation-text {
     text-align: left;
-    color:#484B4A;
-    justify-content: center;
-    margin-top: 60px;
+    flex: 1;
     font-family: sans-serif;
     font-size: 30px;
-}
-.orientation h2, .orientation p, .orientation h4 {
-    margin:0;
-}
-.orientation h2 {
-    margin-top: 16px;
-}
-.orientation p, .orientation h4 {
-    margin-top: 8px;
-}
-.orientation a {
-    color: rgb(19, 54, 209);
-}
-.our-campus {
- background-color: blanchedalmond;
- width: 40%;
- display: flex;
-}
-.our-campus img {
-    margin: 16px 16px;
-    width: 35%;
-}
-.our-campus-text{
-    text-align: left;
     color:#484B4A;
-    justify-content: center;
-    margin-top: 60px;
-    font-family: sans-serif;
-    font-size: 30px;
-}    
-.our-campus-text h2, .our-campus-text p, .our-campus-text h4  {
+}
+.orientation-text h2 {
     margin: 0;
+    
 }
-.our-campus-text p {
+.orientation-text p {
+    margin: 0;
     margin-top: 8px;
-    margin-bottom: 8px;
+}
+.orientation-text h4 {
+    margin: 0;
+    margin-top: 8px;
 
 }
-.our-campus-text a {
-    color:rgb(19, 54, 209); 
+.orientation-text a {
+    color: #1E81E4;
+    
 }
-.guest-lecture {
-    background-color: burlywood;
-    width: 40%;
+.our-campus {
     display: flex;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgrey;
+    border-left: 2px solid lightgray;
+    border-right: 0px;
+    margin-top: 2px;
 }
-.guest-lecture img {
+.our-campus img {
+    width: 35%;
+    height: auto;
     margin: 16px 16px;
 }
-.guest-lecture-text {
+.our-campus-text {
+    text-align: left;
+    flex: 1;
     font-family: sans-serif;
-    font-size: 30px;
     color:#484B4A;
-    margin-top: 60px;
+    font-size: 30px;
 }
-.guest-lecture h2, .guest-lecture p, .guest-lecture h4 {
+.our-campus-text h2 {
+    margin: 0;
+
+}
+.our-campus-text p {
+    margin: 0;
+    margin-top: 8px;
+}
+.our-campus-text h4 {
+    margin: 0;
+    margin-top: 8px;
+}
+.our-campus-text a {
+    color:#1E81E4;
+
+}
+.lecture {
+    display: flex;
+    background-color: lightgrey;
+    width: 100%;
+    align-items: center;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgrey;
+    border-left: 2px solid lightgray;
+    border-right: 0px;
+    margin-top: 2px;
+}
+.lecture img {
+    width: 35%;
+    height: auto;
+   
+    margin: 16px 16px;
+}
+.lecture-text {
+    text-align: left;
+    flex: 1;
+    font-family: sans-serif;
+    color:#484B4A;
+    font-size: 30px;
+}
+.lecture-text h2 {
     margin: 0;
 }
-.guest-lecture p {
+.lecture-text p {
+    margin: 0;
     margin-top: 8px;
-    margin-bottom: 8px;
 }
-.guest-lecture a {
-    color:rgb(19, 54, 209);    
+.lecture-text h4 {
+    margin: 0;
+    margin-top: 8px;
+}
+.lecture-text a {
+    color:#1E81E4;
 }
