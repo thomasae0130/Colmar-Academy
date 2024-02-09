@@ -477,3 +477,20 @@ h4 {
 .nowthen-text p {
     color: #727272;
 }
+.stuff {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.stuff2 {
+    display: flex;
+    word-spacing: 5%;
+}
+.footer {
+    width: 100%;
+    color: white;
+}
+.id {
+    margin-right: 10px;
+}
